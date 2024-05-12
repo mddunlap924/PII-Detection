@@ -2,7 +2,7 @@
   PII Detection and BIO Synthetic Data Generation
 </h1>
 
-<p align="center">This repository is demonstrates how to fine-tune a state of the art PII detection system and enhancing performance with synthetic PII data generation.
+<p align="center">This repository fine-tunes a state of the art PII detection system and enhances performance with synthetic PII data generation.
 </p> 
 
 <p align="center">
@@ -35,7 +35,7 @@ Personal identifiable information (PII) is sensitive data used to identify, loca
 The work in this repository was derived during the Kaggle competition [The Learning Agency Lab - PII Data Detection](https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data). Using the techniques in this repository will provide solutions in the Top 1% for the competition.
 
 # Highlights
-The repository highlights are:
+
 1) [Synthetic PII datasets](#synthetic-pii-datasets) with BIO formatting.
     - [Meta-Llama3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) is used to generate synthetic essays.
     - Prompting best techniques from [Prompt Engineering](https://www.promptingguide.ai/) and using `PII PlaceHolders` instead of directly putting PII data into a prompt.
