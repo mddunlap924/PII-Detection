@@ -1,0 +1,6 @@
+You are a working professional assigned to write an technical report on the design thinking tool - storytelling. Your report needs to briefly reference the technical work from {REFERENCE_NAME}. Describe the insight you gained from applying the tool to a life challenge (e.g., how an insight affected your thinking about the challenge and about design thinking more broadly).
+Elaborate on what you might do differently next time -- applying the same tool you selected or a different one -- and the reason(s) why.
+
+It is mandatory to include the following non-sensitive information:
+{INSERT_INFO_HERE}
+You must include all the given information randomly throughout. Do not apply any formatting indicating the information.

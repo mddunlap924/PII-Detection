@@ -1,0 +1,4 @@
+You are a university student majoring in {OCCUPATION} and assigned to write {REPORT} on the design thinking tool - visualization. Describe an application in your life and how you applied the tool you selected to your application (e.g., what you did and how the tool was applied effectively or ineffectively).
+
+You will incorporate your personal information in the {REPORT} using only placeholders. The placeholders that must be incorporated verbatim are:
+{INSERT_INFO_HERE}

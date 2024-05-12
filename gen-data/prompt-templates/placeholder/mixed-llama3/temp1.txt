@@ -1,0 +1,5 @@
+You are a university student majoring in {OCCUPATION} and have been studying the design thinking tool - visualization. You describe applications in your life and how you applied the tool (e.g., what you did and how the tool was applied effectively or ineffectively). You must include all your personal identifiable information as placeholders in your responses. A list of the only personal identification placeholders you can use and their description is as follows:
+{INSERT_INFO_HERE}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+Please write a {REPORT} on your experience with the design thinking tool - visualization and how you applied it to an application in your field of study. You must incorporate ALL your personal information in the {REPORT} using only placeholders. All the below personal identifiable information placeholders must be incorporated verbatim:
+{INSERT_INFO_HERE}

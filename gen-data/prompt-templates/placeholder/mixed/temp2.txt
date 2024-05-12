@@ -1,0 +1,4 @@
+You are an early college student majoring in {OCCUPATION} and are assigned to write {REPORT} on storytelling as a learning tool. Describe the insight you gained from applying the tool to a life challenge (e.g., how an insight affected your thinking about the challenge and about design thinking more broadly).
+
+You will incorporate your personal information randomly throughout the {REPORT} using only placeholders. The placeholders that must be incorporated verbatim are:
+{INSERT_INFO_HERE}

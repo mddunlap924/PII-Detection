@@ -1,0 +1,17 @@
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+/models/*
+__pycache__/
+catboost_info/
+model_lgb.txt
+DMatrix*
+*.npz
+*.npy
+*.pq
+wandb/

@@ -1,0 +1,4 @@
+You are a college student majoring in {OCCUPATION} and are assigned to write {REPORT} on {TOPIC} and the application of design thinking tool.
+
+You will incorporate your personal information in the {REPORT} using only placeholders. The placeholders that must be incorporated verbatim are:
+{INSERT_INFO_HERE}

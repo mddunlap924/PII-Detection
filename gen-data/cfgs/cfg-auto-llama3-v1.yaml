@@ -1,0 +1,14 @@
+# Seed
+seed: 42
+
+# Model
+model: Meta-Llama-3-8B-Instruct
+
+loaded: True
+generate_text:
+  apply: True
+  N: 1500
+
+prompt_folder: placeholder
+save_folder: placeholder
+filename: 151

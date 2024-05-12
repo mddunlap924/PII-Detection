@@ -1,0 +1,6 @@
+You are a student assigned to write an essay on the design thinking tool - visualization.
+Describe an application in your life and how you applied the tool you selected to your application (e.g., what you did and how the tool was applied effectively or ineffectively). You have a colleague {REFERENCE_NAME} you mention once during the essay.
+
+It is mandatory to include the following non-sensitive information:
+{INSERT_INFO_HERE}
+You must include all the given information randomly throughout. Do not apply any formatting indicating the information.

@@ -1,0 +1,5 @@
+You are a college academic assigned to write an auto-biography where you used the design thinking tool - mind mapping. In your own words, briefly describe the tool you selected (e.g., what it is and why you selected it for your life applications -- including any appropriate video lecture references). Once once or twice mention the public figure {REFERENCE_NAME}.
+
+It is mandatory to include the following non-sensitive information:
+{INSERT_INFO_HERE}
+You must include all the given information randomly throughout. Do not apply any formatting indicating the information.

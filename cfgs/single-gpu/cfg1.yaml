@@ -1,0 +1,88 @@
+##############################################
+# Fine-tuning Encoder Model
+##############################################
+
+# Paths
+paths:
+  data:
+    # Select datasets for training by uncommenting
+    train:
+      - mdd-pii-detection-removal-from-educational-data/train_f1.json
+      # - mdd-gen/mdd_Mistral-7x8B-Instruct-v0.1_3.2K.json
+      # - mdd-gen/MixtralQ5_placeholder_pii_mimic_training_3.6K_v9.json
+      # - mdd-gen/llama3_placeholder_2.3K_v0.json
+      # - vw-output/moredata_dataset_fixed.json
+      # - vw-output/pii_dataset_fixed.json
+      # - mixtral-original-prompt/Fake_data_1850_218.json
+      # - pii-dd-mistral-generated/mixtral-8x7b-v1.json
+      - pii-mixtral8x7b-generated-essays/mpware_mixtral8x7b_v1.1-no-i-username.json
+      # - pii-detect-gpt3-5-synthetic-data-8k/mdd_PII_Detect_GPT3.5_Generated_data_v1.json
+    val: mdd-pii-detection-removal-from-educational-data/val_f1.json
+
+# Saving models and results
+  save_results:
+    model_results: False # Save model weights [boolean: True/False]
+    wandb_online: True # Save performance metrics to wandb online [boolean: True/False]
+
+# DEBUG [True or False]; if False it will load the debug_data
+# Use for pipeline development
+debug: False
+seed: 42
+
+# Data processing
+data:
+  split: False
+  ds_ratio: Null
+
+# wandb
+wandb:
+  mode: online
+
+# Model and tokenizer
+model:
+  name: deberta-v3-large
+  freeze:
+    apply: True
+    num_layers: 6
+
+# Trainer arguments
+train_args:
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 4
+  num_train_epochs: 3
+  learning_rate: 2.5E-5
+  fp16: True
+  gradient_checkpointing: True
+  use_reentrant: True
+  eval_epoch_fraction: 0.1
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  metric_for_best_model: f1
+  greater_is_better: True
+  lr_scheduler_type: 'cosine'
+
+# Tokenizer
+tokenizer:
+  add_tokens: Null
+  do_lower: False
+  use_fast: True
+  pad_to_multiple_of: 16
+  max_token_length: 3584
+
+# Adjust class weights
+class_weights:
+  apply: False
+  approach: mean  # mean or absolute or fixed
+  multiplier: 0.1
+
+# Focal Loss
+focal_loss:
+  apply: False
+  alpha: 0.5
+  gamma: 2
+
+# Mask Data
+mask_data:
+  apply: False
+  prob: 0.15
+  

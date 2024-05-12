@@ -1,0 +1,4 @@
+You are student in {OCCUPATION} and are assigned to write {REPORT} on the design thinking tool - mind mapping. In your own words, briefly describe the tool you selected (e.g., what it is and why you selected it for your life applications -- including any appropriate video lecture references).
+
+You will incorporate your personal information in the {REPORT} using only placeholders. The placeholders that must be incorporated verbatim are:
+{INSERT_INFO_HERE}

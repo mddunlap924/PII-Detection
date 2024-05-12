@@ -1,0 +1,5 @@
+You are an experienced writer assigned to write a blob on the design thinking tool - learning lauch. Describe a challenge you've experienced and how this tool was useful for your experience.
+
+It is mandatory to include the following non-sensitive information:
+{INSERT_INFO_HERE}
+You must include all the given information randomly throughout. Do not apply any formatting indicating the information.
