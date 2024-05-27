@@ -38,6 +38,16 @@ class RecursiveNamespace(SimpleNamespace):
             elif isinstance(val, list):
                 setattr(self, key, list(map(self.map_entry, val)))
 
+    def to_dict(self):
+        def convert(obj):
+            if isinstance(obj, RecursiveNamespace):
+                return {key: convert(value) for key, value in obj.__dict__.items()}
+            elif isinstance(obj, list):
+                return [convert(item) for item in obj]
+            else:
+                return obj
+        return convert(self)
+
 
 def load_cfg(base_dir: Path,
              filename: str,
